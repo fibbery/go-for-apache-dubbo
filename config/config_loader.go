@@ -93,7 +93,7 @@ func Load() {
 					(refconfig.Check == nil && consumerConfig.Check == nil) { //default to true
 
 					if refconfig.invoker != nil &&
-						!refconfig.invoker.IsAvailable() {
+						!refconfig.invoker.IsAvailable() { // todo why? it is false when version
 						checkok = false
 						count++
 						if count > maxWait {
