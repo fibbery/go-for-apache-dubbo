@@ -30,7 +30,6 @@ Finished List:
 - Transport: HTTP, TCP
 - Codec: JsonRPC v2, Hessian v2
 - Registry: ZooKeeper
-- Routing: Rule(dubbo v2.6.x)
 - Configure Center: Zookeeper
 - Cluster Strategy: Failover
 - Load Balance: Random, RoundRobin, LeastActive
@@ -54,9 +53,15 @@ Todo List:
 
 You can know more about dubbo-go by its [roadmap](https://github.com/apache/dubbo-go/wiki/Roadmap).
 
+
+
 ## Quick Start
 
 The subdirectory examples shows how to use dubbo-go. Please read the [examples/README.md](https://github.com/apache/dubbo-go/blob/develop/examples/README.md) carefully to learn how to dispose the configuration and compile the program.
+
+## Contributing
+
+If you are willing to do some code contributions and document contributions to [Apache/dubbo-go](https://github.com/apache/dubbo-go), please visit [contribution intro](https://github.com/apache/dubbo-go/blob/master/cg.md).
 
 ## Benchmark
 
