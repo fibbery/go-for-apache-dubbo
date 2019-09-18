@@ -29,6 +29,8 @@ const (
 	SERVICE_KEY   = "service"
 	METHODS_KEY   = "methods"
 	TIMEOUT_KEY   = "timeout"
+	BEAN_NAME_KEY = "bean.name"
+	GENERIC_KEY   = "generic"
 )
 
 const (
@@ -45,6 +47,7 @@ const (
 	WARMUP_KEY           = "warmup"
 	RETRIES_KEY          = "retries"
 	BEAN_NAME            = "bean.name"
+	FAIL_BACK_TASKS_KEY  = "failbacktasks"
 )
 
 const (
@@ -83,4 +86,16 @@ const (
 	ProtocolConfigPrefix  = "dubbo.protocols."
 	ProviderConfigPrefix  = "dubbo.provider."
 	ConsumerConfigPrefix  = "dubbo.consumer."
+)
+
+const (
+	NACOS_KEY                    = "nacos"
+	NACOS_DEFAULT_ROLETYPE       = 3
+	NACOS_CACHE_DIR_KEY          = "cacheDir"
+	NACOS_LOG_DIR_KEY            = "logDir"
+	NACOS_ENDPOINT               = "endpoint"
+	NACOS_SERVICE_NAME_SEPARATOR = ":"
+	NACOS_CATEGORY_KEY           = "category"
+	NACOS_PROTOCOL_KEY           = "protocol"
+	NACOS_PATH_KEY               = "path"
 )
